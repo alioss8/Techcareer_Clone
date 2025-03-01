@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left:15%;
+    margin-top: 10px;
+}
+label{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+label img{
+    width:fit-content;
+    padding-left: 10px;
+}
+label input{
+    border-style: none;
+    outline: none;
+    padding-left: 5px;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+ul li:not(:nth-child(4)) {
+    list-style: none;
+}
+
+ul li  {
+    margin-left: 20px;
+    text-decoration:none;
+    color: black;
+}
+
+li::marker {
+    color: green; 
+}
+
+ul li a {
+    padding-right: 10px;
+    text-decoration:none;
+    color: black;
+}
+a:hover {
+    color: green; /* Üzerine gelindiğinde kırmızı */
+}
+.button{
+    margin-left:30px;
+    
+    
+}
+.button:hover{
+    color:lightgreen;
+}
+
+
