@@ -1,7 +1,6 @@
 import { useState } from 'react'
-
-
 import Header from "./components/header";
+import Signup from "./components/Signup";
 
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Signup/>
     </div>
   )
 }
