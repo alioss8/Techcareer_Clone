@@ -8,7 +8,7 @@ return (
 <div>
 <Container>
     <Container>
-    <Row>
+    <Row  className='content'>
     <Col >
     <h1>Etkinliklerimiz</h1>
     </Col>
