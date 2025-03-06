@@ -9,10 +9,9 @@
 }
 
 .eventsbtn{
-    padding: 15px 20px 15px 20px !important; 
+    padding: 15px 100px 15px 100px !important; 
     font-size: 24px !important;
     font-weight: 600 !important;
-    margin-left: 10px;
 }
 
 .eventsbtn:hover{
@@ -27,6 +26,7 @@
     color:#02D076 !important;
     font-weight: 500 !important;
     margin-bottom: 300px !important;
+    
 }
 
 
