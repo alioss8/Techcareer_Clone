@@ -1,0 +1,37 @@
+.cardtitle{
+    font-size:20px !important;
+    font-weight: 600 !important;
+}
+
+.cardtext{
+    font-size: 16px !important;
+
+}
+.cardfooter{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+
+    
+
+}
+.cardbutton{
+    border:1px solid black !important;
+    border-radius: 20px !important;
+    background-color:#F6F8FF !important;  
+}
+.footerp{
+    
+    font-size: small;
+    color: black;
+    font-weight: 500;
+}
+#span{
+    color: grey;
+}
+.footerbtn{
+    background-color: #00C26D !important;
+    color: white !important;
+    width: 150px !important;
+   
+}

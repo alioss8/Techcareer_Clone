@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/signup.css'
-import { Container ,Row,Col,Button} from 'react-bootstrap';
+import { Container ,Row,Col,Button,Card} from 'react-bootstrap';
 
 function Signup() {
   return (
@@ -14,7 +14,12 @@ function Signup() {
         <Col>
         <img src="/src/assets/desktop-setup.webp" alt="desktup setup" /></Col>
       </Row>
+
+     
    </Container>
+
+
+  
   )
 }
 

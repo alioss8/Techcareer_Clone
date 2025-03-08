@@ -1,4 +1,6 @@
-
+.eventsh1{
+    margin-top:100px;
+}
 .eventsparag{
     font-size: 20px;
     display:flex;
@@ -25,7 +27,7 @@
     text-decoration: none !important; 
     color:#02D076 !important;
     font-weight: 500 !important;
-    margin-bottom: 300px !important;
+    margin-bottom: 30px !important;
     
 }
 
