@@ -3,8 +3,9 @@ import Header from "./components/header";
 import Signup from "./components/Signup";
 import Events from "./components/events";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from "./components/cards";
+import Bootcamp from "./components/bootcamp";
 import Jobposting from "./components/jobposting";
+import Education from "./components/education";
 
 function App() {
   
@@ -14,8 +15,9 @@ function App() {
       <Header />
       <Signup/>
       <Events/>
-      <Cards></Cards>
+      <Bootcamp></Bootcamp>
       <Jobposting></Jobposting>
+      <Education></Education>
     </div>
   )
 }

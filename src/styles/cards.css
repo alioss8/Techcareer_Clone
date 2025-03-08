@@ -18,20 +18,33 @@
 .cardbutton{
     border:1px solid black !important;
     border-radius: 20px !important;
-    background-color:#F6F8FF !important;  
+    background-color:#F6F8FF !important; 
+    color:black !important;
+    height: 30px !important;
+    margin-right: 5px;
+    padding-bottom: 5px !important;
 }
 .footerp{
     
     font-size: small;
     color: black;
     font-weight: 500;
+    margin-bottom: 0;
 }
-#span{
+#extraText{
     color: grey;
+    font-size: 16px !important;
+    margin: 0;
+    padding: 0;
 }
 .footerbtn{
     background-color: #00C26D !important;
     color: white !important;
     width: 150px !important;
-   
+    height: min-content;
+    margin-top: 40px;
+}
+span{
+    padding: 0;
+    margin: 0;
 }
