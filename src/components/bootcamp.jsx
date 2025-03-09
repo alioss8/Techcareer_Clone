@@ -4,7 +4,7 @@ import  {Col, Stack,Row,Container,Button,Card}   from 'react-bootstrap';
 
 
 const Bootcamp = () => {
-    const educationData = [
+    const bootcampData = [
     {
         id: 1,
     title: "Database Management Bootcamp with MSSQL",
@@ -54,9 +54,10 @@ return (
                 </Col>
             </Row>
             <Row>
-            {educationData.map((item,index) => (
+            {bootcampData.map((item,index) => (
             <Col key={index} >
-            <CustomCard
+            <CustomCard 
+                className="EducationCard"
                 title={item.title}
                 description={item.description}
                 image={item.image}
@@ -66,8 +67,14 @@ return (
                 button={item.button}
             />
             </Col>
+            
             ))}
             </Row>
+              <Row>
+                        <Col>
+                        <Button variant='light' id='jobsbtn'>Tümünü gör</Button>
+                        </Col>
+                    </Row>      
             
         </Container>
 )

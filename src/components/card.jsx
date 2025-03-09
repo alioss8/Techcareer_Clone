@@ -5,7 +5,7 @@ import '../styles/cards.css'
 const CustomCard = ({ title, description, image, extraButton, extraText, date ,index,button}) => {
     return ( 
         <Col key={index}>
-                    <Card style={{ width: '24rem', height:"30rem" }}>
+                    <Card style={{ width: '24rem', height:"30rem" , marginTop:"20px" }}>
                     <Card.Img variant="top" src={image} />
                     <Card.Body  className='text-center'>
                         <Card.Title className='cardtitle'>{title}</Card.Title>
