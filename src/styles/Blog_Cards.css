@@ -1,0 +1,25 @@
+
+
+
+.blog_title{
+    margin-top: 20px;
+    font-size: 32px !important;
+}
+
+
+.blog_description{
+    font-size: 18px !important;
+    color: gray !important;
+}
+
+.blog_button{
+    width: 80% !important;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #01CC73 !important;
+    color:white !important; 
+}
+
+.blog_card:hover{
+    border: 1px solid black !important;
+}

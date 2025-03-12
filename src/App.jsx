@@ -8,6 +8,8 @@ import Jobposting from "./components/jobposting";
 import Education from "./components/education";
 import Test from "./components/tests";
 import MyCarousel from "./components/carousel";
+import Blog from "./components/Blog_Cards";
+import  CardCarousel from "./components/Reference";
 function App() {
   
 
@@ -21,6 +23,8 @@ function App() {
       <Education></Education>
       <Test></Test>
       <MyCarousel></MyCarousel>
+      <Blog></Blog>
+      <CardCarousel></CardCarousel>
     
     </div>
   )

@@ -1,0 +1,26 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color:white; 
+    border-radius: 50%; 
+    padding: 10px; 
+    color:black !important;
+    fill:'%2fff';
+}
+
+.carousel-control-prev-icon{
+    margin-right: 130px;
+}
+.carousel-control-next-icon{
+    margin-left: 130px;
+}
+.founder-text{
+    display: inline;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.company-text{
+    display:inline;
+    font-weight: 600;
+    font-size: 20px;
+}
