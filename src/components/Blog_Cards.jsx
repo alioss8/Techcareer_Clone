@@ -25,7 +25,7 @@ const Blog = () => {
 
 
   return (
-          <Container>
+          <Container className="ml-3">
             
             <Row>
             {blog_Data.map((item,index) => (

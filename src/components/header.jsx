@@ -1,11 +1,13 @@
 import React from 'react';
-import {Button ,Container,Form,Nav,Navbar} from "react-bootstrap";
-
-
+import {Button ,Container,Form,Nav,Navbar,Row,Col} from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import '../styles/header.css'
 function Header() {
 return (
-    <Navbar expand="lg" className="bg-body-tertiary shadow ">
-    <Container className='col-12' >
+  <Container  className=" shadow p-2 mt-2">
+    <Row>
+    <Navbar expand="lg">
+    <Container className=" col-12" >
       <Navbar.Brand  className='navbar' href="#">
       <img src="/src/assets/techcareer-logo.svg" alt="" />
 
@@ -18,31 +20,27 @@ return (
           navbarScroll
         >
           <Form className=" d-flex" >
-          <Form.Control
+          <Form.Control 
             type="search"
             placeholder=" ⌕ Etkinlik, İş İlanı,Blog Ara"
-            className=" headerinput "
-            aria-label="Search "
-            
-
-            
-          />
-         
-
-        
+            className=" navbar-input "
+            aria-label="Search "/>
+          
         </Form>
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action2">Etkinlikler</Nav.Link>
-          <Nav.Link href="#action2">İş İlanları</Nav.Link>
-          <Nav.Link href="#action2">Eğitimler</Nav.Link>
-          <Nav.Link href="#action2"> <span>🟢</span> Testler </Nav.Link>
-          <Nav.Link href="#action2">Komünite</Nav.Link>
-
+                  <Nav.Link className='Nav-link' href="#action2">Etkinlikler</Nav.Link>
+                  <Nav.Link className='Nav-link' href="#action2">İş İlanları</Nav.Link>
+                  <Nav.Link className='Nav-link'  href="#action2">Eğitimler</Nav.Link>
+                  <Nav.Link className='Nav-link'  href="#action2"> <span>🟢</span> Testler </Nav.Link>
+                  <Nav.Link className='Nav-link'  href="#action2">Komünite</Nav.Link>
+                  <Button  className='navbutton  d-block d-sm-none'    variant="light">Giriş/Üye OL</Button>
         </Nav>
-        <Button  className='navbutton'    variant="outline-success">Giriş/Üye OL</Button>
+        <Button  className='navbutton d-none d-md-block'    variant="light">Giriş/Üye OL</Button>
       </Navbar.Collapse>
     </Container>
   </Navbar>
+    </Row>
+  </Container>
+    
 );
 }
 

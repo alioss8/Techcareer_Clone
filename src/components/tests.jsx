@@ -40,7 +40,7 @@ const Tests = () => {
 
 
   return (
-          <Container>
+          <Container >
             <Row >
                 <Col  className='education'>
                     <h1>Testlerimiz</h1>

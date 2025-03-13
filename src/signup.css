@@ -2,12 +2,12 @@
 strong{
     color:#00C26D;
 }
-h1{
+.first-h1{
     font-size: xx-large;
     padding: 10px;;
     font-weight:900;
 }
-p{
+.first-text{
     font-size:x-large;
     padding: 10px;
     font-weight: 500;
@@ -17,9 +17,7 @@ p{
     background-color: #00C26D !important;
     padding: 10px 30px 10px 30px !important;
     color: white !important;
-    font-weight: 600 !important;
-    
-    
+    font-weight: 600 !important; 
 }
 
 

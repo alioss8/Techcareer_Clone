@@ -64,9 +64,9 @@ const CardCarousel = () => {
 
   return (
     
-  <Container className="mt-5    p-4">
+  <Container className="mt-5 p-4 " style={{backgroundColor:"#FAFAFA"}}>
         <Row><Col>
-        <h1>Referanslarımız</h1>
+        <h1 id="ref-h1">Referanslarımız</h1>
         </Col></Row>
       <Carousel interval={null} prevLabel="Prev" nextLabel="Next" >
         {groupedData.map((group, index) => (

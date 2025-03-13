@@ -1,3 +1,13 @@
-
-
-
+.Nav-link{
+    margin-left: 40px ;
+}
+.Nav-link:hover{
+    color: #00C26D !important;
+}
+.navbar-input{
+    width: 15rem;
+}
+.navbutton{
+    background-color: #00C26D !important;
+    color:white !important;
+}

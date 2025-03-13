@@ -1,0 +1,38 @@
+footer {
+    background-color: white !important;  /* Arka plan beyaz */
+    color: black !important;  /* Tüm yazılar siyah */
+  }
+  
+  footer a {
+    text-decoration: none !important;
+    color: black !important;
+  }
+  
+  footer a:hover {
+    text-decoration: underline !important;
+    color: #333 !important;
+  }
+  
+  .accordion-button {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+  }
+  
+  .accordion-body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  .accordion-body a {
+    color: black !important;
+  }
+
+  .text-white{
+    color:black !important;
+  }
+  .footer-p{
+    font-size: 13px;
+    padding: 10px;
+    color: lightgray;
+  }

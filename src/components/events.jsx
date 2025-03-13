@@ -6,9 +6,9 @@ import '../styles/events.css'
 function Events() {
 return (
 <div>
-<Container>
-    <Container>
-    <Row  className='content'>
+<Container >
+    <Container  className='content  d-none d-md-block'>
+    <Row   >
     <Col >
     <h1 className='eventsh1'>Etkinliklerimiz</h1>
     </Col>
@@ -28,6 +28,26 @@ return (
     <Button   sm={12} md={6} lg={4} className='aplicationbtn '   variant="link">Hemen Başvur <i class="bi bi-arrow-right "></i>  </Button>
     </Col>
     </Row>
+    </Container>
+
+    <Container className='content  d-block d-sm-none'>
+        <Row>
+            <Col >
+                <h1>Bootcamp</h1>
+                <p>Uzman eğitmenler ile farklı yazılım dillerinde eğitimler alıp, projeler üzerinde  çalışarak gerçek dünya tecrübesi edin, kariyerinde hızla yüksel.</p>
+                <Button   sm={12} md={6} lg={4} className='aplicationbtn '   variant="link">Hemen Başvur <i class="bi bi-arrow-right "></i>  </Button>
+
+                <h1>Bootcamp</h1>
+                <p>Uzman eğitmenler ile farklı yazılım dillerinde eğitimler alıp, projeler üzerinde  çalışarak gerçek dünya tecrübesi edin, kariyerinde hızla yüksel.</p>
+                <Button   sm={12} md={6} lg={4} className='aplicationbtn '   variant="link">Hemen Başvur <i class="bi bi-arrow-right "></i>  </Button>
+
+                <h1>Bootcamp</h1>
+                <p>Uzman eğitmenler ile farklı yazılım dillerinde eğitimler alıp, projeler üzerinde  çalışarak gerçek dünya tecrübesi edin, kariyerinde hızla yüksel.</p>
+                <Button   sm={12} md={6} lg={4} className='aplicationbtn '   variant="link">Hemen Başvur <i class="bi bi-arrow-right "></i>  </Button>
+
+
+            </Col>
+        </Row>
     </Container>
     
     </Container>

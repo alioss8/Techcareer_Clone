@@ -10,6 +10,9 @@ import Test from "./components/tests";
 import MyCarousel from "./components/carousel";
 import Blog from "./components/Blog_Cards";
 import  CardCarousel from "./components/Reference";
+import  RefLogo from "./components/RefLogo";
+import  Commets from "./components/Commets";
+import  Footer from "./components/Footer";
 function App() {
   
 
@@ -25,6 +28,10 @@ function App() {
       <MyCarousel></MyCarousel>
       <Blog></Blog>
       <CardCarousel></CardCarousel>
+      <RefLogo></RefLogo>
+      <Commets></Commets>
+      <Footer></Footer>
+      
     
     </div>
   )
