@@ -35,6 +35,7 @@ const Tests = () => {
         time:"8dakika",
         certifiacate:" 8 Soru"
       },
+      
     ];
 
 
@@ -70,7 +71,7 @@ const Tests = () => {
             </Row>
               <Row>
                         <Col>
-                        <Link to="../src/pages/Test_Page.jsx">
+                        <Link to="/TestPage">
                         <Button variant='light' id='jobsbtn'>Tümünü gör</Button>
                         </Link>
                         </Col>
