@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import  {Col , Stack,Row,Container,Button,Card}   from 'react-bootstrap';
 import EducationCard from "./educationCard";
 import '../styles/education.css';
@@ -69,7 +70,9 @@ const Tests = () => {
             </Row>
               <Row>
                         <Col>
+                        <Link to="../src/pages/Test_Page.jsx">
                         <Button variant='light' id='jobsbtn'>Tümünü gör</Button>
+                        </Link>
                         </Col>
                     </Row>      
         </Container>

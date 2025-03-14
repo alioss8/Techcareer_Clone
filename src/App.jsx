@@ -1,36 +1,19 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from '../src/pages/Homepage';
+import Test_Page from '../src/pages/Test_Page';
 
-import Header from "./components/header";
-import Signup from "./components/Signup";
-import Events from "./components/events";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Bootcamp from "./components/bootcamp";
-import Jobposting from "./components/jobposting";
-import Education from "./components/education";
-import Test from "./components/tests";
-import SampleSlider from "./components/carousel";
-import Blog from "./components/Blog_Cards";
-import  CardCarousel from "./components/Reference";
-import  RefLogo from "./components/RefLogo";
-import  Commets from "./components/Commets";
-import  Footer from "./components/Footer";
 function App() {
   
 
   return (
     <div>
-      <Header />
-      <Signup/>
-      <Events/>
-      <Bootcamp></Bootcamp>
-      <Jobposting></Jobposting>
-      <Education></Education>
-      <Test></Test>
-      <SampleSlider></SampleSlider>
-      <Blog></Blog>
-      <CardCarousel></CardCarousel>
-      <RefLogo></RefLogo>
-      <Commets></Commets>
-      <Footer></Footer>
+      <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/TestPage" element={<Test_Page />} />
+      </Routes>
+    </Router>
       
     
     </div>

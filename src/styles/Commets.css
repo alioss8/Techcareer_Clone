@@ -1,35 +1,6 @@
-.carousel-container {
-    display: flex;
-    flex-direction: row; /* Varsayılan: Yatay */
-    align-items: center;
-    gap: 10px;
-  }
-  
-  /* Mobilde dikey hale getirme */
-  @media (max-width: 768px) {
-    .carousel-container {
-      flex-direction: column; /* Mobilde dikey */
-      align-items: center;
-    }
-  
-    .carousel .carousel-inner {
-      display: block; /* Kartları alt alta koy */
-    }
-  
-    .carousel-item {
-      display: flex;
-      flex-direction: column; /* İçindeki kartları alt alta koy */
-    }
-  
-    .carousel-control-prev,
-    .carousel-control-next {
-      position: relative; /* Okları alta almak için */
-      top: auto;
-      bottom: 0;
-      width: 100%;
-      margin-top: 10px;
-    }
-  }
+
+
+
   .slider-container {
     max-width: 80vw;
     width: 80%;
