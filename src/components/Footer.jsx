@@ -10,39 +10,48 @@ const Footer = () => {
         {/* Masaüstünde gösterilecek sütunlar */}
         <Row className="d-none d-md-flex">
           <Col md={2}>
-            <h5>Hakkımızda</h5>
+            <h5> TECHCAREER</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">Biz Kimiz?</a></li>
-              <li><a href="#" className="text-white">Vizyonumuz</a></li>
-              <li><a href="#" className="text-white">Misyonumuz</a></li>
+                <li><a href="#" className="text-dark">Hakkımızda</a></li>
+                <li><a href="#" className="text-dark">Etkinlikler</a></li>
+                <li><a href="#" className="text-dark">Şirketler İçın</a></li>
+                <li><a href="#" className="text-dark">Eğitmen Ol</a></li>
+                <li><a href="#" className="text-dark">İş Birliği</a></li>
+                <li><a href="#" className="text-dark">Referanslar</a></li>
+                <li><a href="#" className="text-dark">İletişim</a></li>
             </ul>
           </Col>
           <Col md={2}>
-            <h5>Hizmetlerimiz</h5>
-            <ul className="list-unstyled">
-              <li><a href="#" className="text-white">Web Tasarım</a></li>
-              <li><a href="#" className="text-white">SEO</a></li>
-              <li><a href="#" className="text-white">Dijital Pazarlama</a></li>
+            <h5> BAŞVUR</h5>
+            <ul className="list-unstyled ">
+                <li><a href="#" className="text-dark">Bootcamp</a></li>
+                <li><a href="#" className="text-dark">Hackathon</a></li>
+                <li><a href="#" className="text-dark">Hiring Challange</a></li>
+                <li><a href="#" className="text-dark">İş İlanları</a></li>
             </ul>
           </Col>
           <Col md={2}>
-            <h5>Destek</h5>
+            <h5> SENİN İÇİN</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">İletişim</a></li>
-              <li><a href="#" className="text-white">Sıkça Sorulan Sorular</a></li>
-              <li><a href="#" className="text-white">Canlı Destek</a></li>
+                <li><a href="#" className="text-dark">Komünite</a></li>
+                <li><a href="#" className="text-dark">TDC</a></li>
+                <li><a href="#" className="text-dark">Blog</a></li>
+                <li><a href="#" className="text-dark">Podcast</a></li>
+                <li><a href="#" className="text-dark">Teknil Sözlük</a></li>
+                <li><a href="#" className="text-dark">Mülakat Soruları</a></li>
             </ul>
           </Col>
           <Col md={2}>
-            <h5>Bizi Takip Edin</h5>
-            <ul className="list-unstyled">
-              <li><a href="#" className="text-white">Facebook</a></li>
-              <li><a href="#" className="text-white">Twitter</a></li>
-              <li><a href="#" className="text-white">Instagram</a></li>
+            <h5> VERİ POLİTİKAMIZ</h5>
+            <ul className="list-unstyled ">
+                <li><a href="#" className="text-dark mt-2">Aydınlatma Metini</a></li>
+                <li><a href="#" className="text-dark mt-2">Hizmet Sözleşmesi</a></li>
+                <li><a href="#" className="text-dark mt-2">Açık Rıza Metni</a></li>
+                <li><a href="#" className="text-dark mt-2">Çerez Politakası</a></li>
             </ul>
           </Col>
           <Col md={4}>
-            <Image src="https://www.techcareer.net/assets/images/common/techcareer-logo.svg"></Image>
+            <Image style={{marginBottom:"20px"}} src="https://www.techcareer.net/assets/images/common/techcareer-logo.svg"></Image>
             <p>Türkiye’nin teknoloji kariyeri platformu</p>
             <h6>SOSYAL MEDYA</h6>
             <Image src="https://www.techcareer.net/assets/images/footer/linkedin.svg"></Image>
@@ -68,52 +77,61 @@ const Footer = () => {
         <Accordion activeKey={activeKey} className="d-md-none">
           <Accordion.Item eventKey="0">
             <Accordion.Header onClick={() => setActiveKey(activeKey === "0" ? null : "0")}>
-              Hakkımızda
+            TECHCAREER
             </Accordion.Header>
             <Accordion.Body>
-              <ul className="list-unstyled">
-                <li><a href="#" className="text-dark">Biz Kimiz?</a></li>
-                <li><a href="#" className="text-dark">Vizyonumuz</a></li>
-                <li><a href="#" className="text-dark">Misyonumuz</a></li>
+            <ul className="list-unstyled text-center">
+                <li><a href="#" className="text-dark">Hakkımızda</a></li>
+                <li><a href="#" className="text-dark">Etkinlikler</a></li>
+                <li><a href="#" className="text-dark">Şirketler İçın</a></li>
+                <li><a href="#" className="text-dark">Eğitmen Ol</a></li>
+                <li><a href="#" className="text-dark">İş Birliği</a></li>
+                <li><a href="#" className="text-dark">Referanslar</a></li>
+                <li><a href="#" className="text-dark">İletişim</a></li>
               </ul>
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="1">
             <Accordion.Header onClick={() => setActiveKey(activeKey === "1" ? null : "1")}>
-              Hizmetlerimiz
+            BAŞVUR
             </Accordion.Header>
             <Accordion.Body>
-              <ul className="list-unstyled">
-                <li><a href="#" className="text-dark">Web Tasarım</a></li>
-                <li><a href="#" className="text-dark">SEO</a></li>
-                <li><a href="#" className="text-dark">Dijital Pazarlama</a></li>
-              </ul>
+            <ul className="list-unstyled">
+                <li><a href="#" className="text-dark">Bootcamp</a></li>
+                <li><a href="#" className="text-dark">Hackathon</a></li>
+                <li><a href="#" className="text-dark">Hiring Challange</a></li>
+                <li><a href="#" className="text-dark">İş İlanları</a></li>
+            </ul>
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="2">
             <Accordion.Header onClick={() => setActiveKey(activeKey === "2" ? null : "2")}>
-              Destek
+            SENİN İÇİN
             </Accordion.Header>
             <Accordion.Body>
               <ul className="list-unstyled">
-                <li><a href="#" className="text-dark">İletişim</a></li>
-                <li><a href="#" className="text-dark">Sıkça Sorulan Sorular</a></li>
-                <li><a href="#" className="text-dark">Canlı Destek</a></li>
+                <li><a href="#" className="text-dark">Komünite</a></li>
+                <li><a href="#" className="text-dark">TDC</a></li>
+                <li><a href="#" className="text-dark">Blog</a></li>
+                <li><a href="#" className="text-dark">Podcast</a></li>
+                <li><a href="#" className="text-dark">Teknil Sözlük</a></li>
+                <li><a href="#" className="text-dark">Mülakat Soruları</a></li>
               </ul>
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="3">
             <Accordion.Header onClick={() => setActiveKey(activeKey === "3" ? null : "3")}>
-              Bizi Takip Edin
+            VERİ POLİTİKAMIZ
             </Accordion.Header>
             <Accordion.Body>
               <ul className="list-unstyled">
-                <li><a href="#" className="text-dark">Facebook</a></li>
-                <li><a href="#" className="text-dark">Twitter</a></li>
-                <li><a href="#" className="text-dark">Instagram</a></li>
+                <li><a href="#" className="text-dark">Aydınlatma Metini</a></li>
+                <li><a href="#" className="text-dark">Hizmet Sözleşmesi</a></li>
+                <li><a href="#" className="text-dark">Açık Rıza Metni</a></li>
+                <li><a href="#" className="text-dark">Çerez Politakası</a></li>
               </ul>
               
             </Accordion.Body>

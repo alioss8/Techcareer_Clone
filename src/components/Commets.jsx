@@ -156,8 +156,8 @@ return (
                 </Col>
             </Row>
 </Container>
-        ))}
-    </Slider>
+      ))}
+    </Slider>  
      <Row>
         <Col>
         <Button variant='light' id='jobsbtn' style={{marginLeft:"55px"}}>Tümünü gör</Button>

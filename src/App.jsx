@@ -7,7 +7,7 @@ import Bootcamp from "./components/bootcamp";
 import Jobposting from "./components/jobposting";
 import Education from "./components/education";
 import Test from "./components/tests";
-import MyCarousel from "./components/carousel";
+import SampleSlider from "./components/carousel";
 import Blog from "./components/Blog_Cards";
 import  CardCarousel from "./components/Reference";
 import  RefLogo from "./components/RefLogo";
@@ -25,7 +25,7 @@ function App() {
       <Jobposting></Jobposting>
       <Education></Education>
       <Test></Test>
-      <MyCarousel></MyCarousel>
+      <SampleSlider></SampleSlider>
       <Blog></Blog>
       <CardCarousel></CardCarousel>
       <RefLogo></RefLogo>

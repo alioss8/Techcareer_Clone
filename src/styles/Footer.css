@@ -6,6 +6,7 @@ footer {
   footer a {
     text-decoration: none !important;
     color: black !important;
+    
   }
   
   footer a:hover {
@@ -28,8 +29,18 @@ footer {
     color: black !important;
   }
 
+  h5{
+    color:lightgray;
+  }
+  h6{
+    color:lightgray;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
   .text-white{
+    margin-bottom: 40px;
     color:black !important;
+    font-weight: 600;
   }
   .footer-p{
     font-size: 13px;

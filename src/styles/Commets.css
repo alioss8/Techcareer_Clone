@@ -30,4 +30,9 @@
       margin-top: 10px;
     }
   }
-  
+  .slider-container {
+    max-width: 80vw;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}

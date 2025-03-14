@@ -1,82 +1,88 @@
-import React from 'react';
-import Slider from 'react-slick';
-
+import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import '../styles/Carousel.css';
 
-const CenterModeSlider = () => {
+const SampleSlider = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const settings = {
-    dots: true, // Alt kısımda noktalar göster
-    infinite: true, // Sonsuz döngü
-    speed: 300, // Geçiş hızı
-    slidesToShow: 1, // Aynı anda gösterilecek slayt sayısı
-    slidesToScroll: 1, // Kaydırma sırasında geçilecek slayt sayısı
-    centerMode: true, // Ortalama modunu aktif et
-    centerPadding: '200px', // Ortadaki slaytın yanlarındaki boşluk
-    focusOnSelect: true, // Slayta tıklandığında odaklan
-    autoplay: false, // Otomatik kaydırma
+    dots: true, 
+    infinite: true, 
+    speed: 300, 
+    slidesToShow: 1, 
+    slidesToScroll: 1, 
+    centerMode: true,
+    centerPadding: '200px', 
+    focusOnSelect: true, 
+    autoplay: true, 
     autoplaySpeed: 5000, 
     responsive: [
       {
-        breakpoint: 1024, // 1024px altına düşünce
+        breakpoint: 768, 
         settings: {
-          slidesToShow: 2, // 2 resim göster
-        },
+          centerPadding: "5px",
+        }
       },
       {
-        breakpoint: 768, // 768px altına düşünce
+        breakpoint: 480, 
         settings: {
-          slidesToShow: 1, // 1 resim göster
-        },
-      },
-    ],
-    // Otomatik kaydırma hızı (ms cinsinden)
+          centerPadding: "0px", 
+        }
+      }
+    ]
+   
+    
   };
 
   return (
-   <div style={{ width: '100%', margin: 'auto',  background:"#293349", marginTop:"100px" }} >
-    <div style={{ width: '100%', margin: 'auto', paddingTop:"60px", paddingBottom:"50px" }}>
-      
-      <Slider {...settings}>
-        <div>
-          <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/Carousel.webp" alt="Slide 1" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/Gs.webp" alt="Slide 2" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/is_ilanlari_banner.webp" alt="Slide 3" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/Senior_Komuenite_Duyuru_.webp" alt="Slide 4" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/senior_yazilimci_banner_.webp" alt="Slide 5" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/slack_banner_.webp" alt="Slide 1" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/sozluk_banner_.webp" alt="Slide 1" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/testler_banner_.webp" alt="Slide 1" />
-        </div>
-        <div>
-        <a href="#"></a>
-          <img src="/src/assets/Carousel_webp/video_egitimler_banner_.webp" alt="Slide 1" />
-        </div>
-      </Slider>
+    <div style={{ width: '100%', margin: 'auto',  background:"#293349", marginTop:"100px" }} >
+    <div style={{ width: '100%',margin: 'auto', paddingTop:"60px", paddingBottom:"50px" }}>
+    <Slider {...settings}>
+      <div>
+        <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+      <div>
+      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      </div>
+    </Slider>
     </div>
-    </div>
+</div>
   );
 };
 
-export default CenterModeSlider;
+export default SampleSlider;

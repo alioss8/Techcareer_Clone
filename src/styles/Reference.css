@@ -1,35 +1,11 @@
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color:red; 
-    border-radius: 50%; 
-    padding: 10px; 
-    color:black !important;
+.slider-container {
+    max-width: 80vw;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
 }
-
-.carousel-control-prev-icon{
-    margin-right: 200px;
-    z-index:2 ;
-}
-.carousel-control-next-icon{
-    margin-left: 250px;
-    z-index: 2;
-}
-.founder-text{
-    display: inline;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-}
-.company-text{
-    display:inline;
-    font-weight: 600;
-    font-size: 20px;
-}
-#ref-h1{
-    margin-bottom: 30px;
-}
-@media (max-width: 768px) {
-    .carousel-inner {
-      display: block; /* Mobilde tek tek göster */
-    }
-}
+.slick-prev, .slick-next {
+    display: block !important;
+    z-index: 1000;
+  }
+  
