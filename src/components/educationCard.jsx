@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button,Col } from "react-bootstrap";
 import '../styles/education.css'
-const EducationCard = ({ title, description, image, extraButton,extraButton2,extraButton3,extraButton4, extraText, date ,index,button,teacher,level,time,certifiacate}) => {
+const EducationCard = ({ title, description, image, extraButton,extraButton2,extraButton3,extraButton4,  index,teacher,level,time,certifiacate}) => {
     return ( 
         <Col key={index}>
                     <Card style={{ width: '24rem', height:"30rem" , padding:"5px" , textAlign:"start" , marginTop:"20px",  }}>
