@@ -12,6 +12,8 @@ function Responsive() {
     slidesToScroll: 2,
     initialSlide: 0,
     variableWidth: false, 
+    autoplay: true, 
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -46,56 +48,56 @@ const commets_data=[
     {
         index:"1",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Beyzanur_Seyhan.webp",
+        img:"/Commets/Beyzanur_Seyhan.webp",
         name:"Beyzanur Seyhan",
         bootcamps:"lorem2"
     },
     {
         index:"2",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Ozan_Celtikci.webp",
+        img:"/Commets/Ozan_Celtikci.webp",
         name:"Ozan Celtikçi",
         bootcamps:"lorem2"
     },
     {
         index:"3",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Sema_Vargez.webp",
+        img:"/Commets/Sema_Vargez.webp",
         name:"Sema Vargez",
         bootcamps:"lorem2"
     },
     {
         index:"4",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Serhat_Dokumaci.webp",
+        img:"/Commets/Serhat_Dokumaci.webp",
         name:"Serhat Dokumacı",
         bootcamps:"lorem2"
     },
     {
         index:"5",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Beyzanur_Seyhan.webp",
+        img:"/Commets/Beyzanur_Seyhan.webp",
         name:"Beyzanur Seyhan",
         bootcamps:"lorem2"
     },
     {
         index:"6",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Beyzanur_Seyhan.webp",
+        img:"/Commets/Beyzanur_Seyhan.webp",
         name:"Beyzanur Seyhan",
         bootcamps:"lorem2"
     },
     {
         index:"7",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Beyzanur_Seyhan.webp",
+        img:"/Commets/Beyzanur_Seyhan.webp",
         name:"Beyzanur Seyhan",
         bootcamps:"lorem2"
     },
     {
         index:"8",
         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-        img:"/src/assets/Commets/Beyzanur_Seyhan.webp",
+        img:"/Commets/Beyzanur_Seyhan.webp",
         name:"Beyzanur Seyhan",
         bootcamps:"lorem2"
     },
@@ -105,7 +107,7 @@ const commets_data=[
 ]
 return (
     <div className="slider-container " >
-        <h1 style={{marginLeft:"55px",marginTop:"50px"}}>Bizi Katılımcılarımızdan Dinle</h1>
+        <h1 style={{marginLeft:"20px",marginTop:"50px"}}>Bizi Katılımcılarımızdan Dinle</h1>
     <Slider {...settings} >
     {commets_data.map((item) => (
         <Container >

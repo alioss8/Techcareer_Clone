@@ -16,8 +16,8 @@ import  Footer from "../components/Footer";
 function Homepage() {
 return (
     <div>
-        <Header />
-    <Signup/>
+      <Header />
+      <Signup/>
       <Events/>
       <Bootcamp></Bootcamp>
       <Jobposting></Jobposting>

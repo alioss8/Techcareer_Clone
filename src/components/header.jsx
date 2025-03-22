@@ -9,7 +9,7 @@ return (
     <Navbar expand="lg">
     <Container className=" col-12" >
       <Navbar.Brand  className='navbar' href="#">
-      <img src="/src/assets/techcareer-logo.svg" alt="" />
+      <img src="/techcareer-logo.svg" alt="" />
 
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />

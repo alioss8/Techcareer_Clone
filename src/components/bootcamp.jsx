@@ -9,7 +9,7 @@ const Bootcamp = () => {
         id: 1,
     title: "Database Management Bootcamp with MSSQL",
     text: "Ücetsiz öğren , mezun ol , sertifika sahibi ol!",
-    image: "/src/assets/cardpng/database.webp",
+    image: "/cardpng/database.webp",
     date:"06.03.2025",
     extraText:"Son Başvuru:",
     button:{
@@ -22,7 +22,7 @@ const Bootcamp = () => {
         id: 2,
     title: "Pendik Yetkinlik Geliştirme ve İstdihdam Merkezi Endüstriyel Yazılı...",
     text: "Ücetsiz öğren , mezun ol , sertifika sahibi ol!",
-    image: "/src/assets/cardpng/pendik.webp",
+    image: "/cardpng/pendik.webp",
     date:"09.03.2025",
     extraText:"Son Başvuru:",
     extraButton:{
@@ -36,7 +36,7 @@ const Bootcamp = () => {
     id: 3,
     title: "Intro to Machine Learning Workshop",
     text: "Üniversitelilere Özel Eğitim Fırsatını Kaçırma",
-    image: "/src/assets/cardpng/workshop.webp",
+    image: "/cardpng/workshop.webp",
     date:"10.03.2025",
     extraText:"Son Başvuru:",
     button:{

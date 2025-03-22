@@ -10,7 +10,7 @@ const Tests = () => {
         index:"1",
         title: "C# Teknik Test Başlangıç Seviyesi",
         description: "Bu C# kodlama testi adayların C# dilinde temel seviye algoritmalr ile programlama yeteneklerini değerlendirir. ",
-        image: "/src/assets/testswebp/Csharptest.webp",
+        image: "/testswebp/Csharptest.webp",
         level:"Başlangıç",
         time:"16 dakika",
         certifiacate:" 10 Soru",
@@ -21,7 +21,7 @@ const Tests = () => {
         title: "Vue.js Teknik Test (Orta Seviye)",
         
         description: "Vue.js framework'ünde bilgimi ölçmek istiyroum diyorsan, doğru yerdesin.Haydi hemen teste başla",
-        image: "/src/assets/testswebp/Vuejs_test.webp",
+        image: "/testswebp/Vuejs_test.webp",
         level:"Orta",
         time:"15 dakika",
         certifiacate:" 12 Soru"
@@ -30,7 +30,7 @@ const Tests = () => {
         index:"3",
         title: "DevOps Teknik Test (Başlangıç Seviye)",
         description: "Yazılım geliştirme endüstrisinde metodoloji olan Devops seviyeni ölçmek için hemen teste başla.",
-        image: "/src/assets/testswebp/Devops_test.webp",
+        image: "/testswebp/Devops_test.webp",
         level:"Başlangıç",
         time:"8dakika",
         certifiacate:" 8 Soru"

@@ -5,7 +5,7 @@ import { Container ,Row,Col,Button,Card,Image} from 'react-bootstrap';
 function Signup() {
   return (
    <Container >
-      <Col> <Image className='m-0 mt-4 d-block d-sm-none  d-flex align-items-center justify-content-center' style={{width:"390px"}} src="/src/assets/desktop-setup.webp" alt="desktup setup" id='desktop-img'fluid /></Col>
+      <Col> <Image className='m-0 mt-4 d-block d-sm-none  d-flex align-items-center justify-content-center' style={{width:"390px"}} src="/desktop-setup.webp" alt="desktup setup" id='desktop-img'fluid /></Col>
       <Row className='mt-5 '  >
         <Col className='' style={{ width: "48rem"}}>
         <h1 className='first-h1'> <strong>Techcareer.net’le</strong> teknoloji kariyerinde hep ileriye</h1>
@@ -13,7 +13,7 @@ function Signup() {
         <Button className='button-2  btn-light' >Hemen Üye Ol! </Button>
         </Col>
         <Col >
-        <Image className=' d-none d-md-block' src="/src/assets/desktop-setup.webp" alt="desktup setup" id='desktop-img'fluid />
+        <Image className=' d-none d-md-block' src="/desktop-setup.webp" alt="desktup setup" id='desktop-img'fluid />
         </Col>
       </Row>
 

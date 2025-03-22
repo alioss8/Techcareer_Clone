@@ -2,19 +2,19 @@ import React ,  { useState, useEffect } from 'react'
 import  {Col , Stack,Row,Container,Button,Card}   from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import logo1 from "/src/assets/RefLogo/1.webp";
-import logo2 from "/src/assets/RefLogo/2.webp";
-import logo3 from "/src/assets/RefLogo/3.webp";
-import logo4 from "/src/assets/RefLogo/4.webp";
-import logo5 from "/src/assets/RefLogo/5.webp";
-import logo6 from "/src/assets/RefLogo/7.webp";
-import logo7 from "/src/assets/RefLogo/11.webp";
-import logo8 from "/src/assets/RefLogo/12.webp";
-import logo9 from "/src/assets/RefLogo/14.webp";
-import logo10 from "/src/assets/RefLogo/16.webp";
-import logo11 from "/src/assets/RefLogo/17.webp";
-import logo12 from "/src/assets/RefLogo/20.webp";
-import logo13 from "/src/assets/RefLogo/22.webp";
+import logo1 from "/RefLogo/1.webp";
+import logo2 from "/RefLogo/2.webp";
+import logo3 from "/RefLogo/3.webp";
+import logo4 from "/RefLogo/4.webp";
+import logo5 from "/RefLogo/5.webp";
+import logo6 from "/RefLogo/7.webp";
+import logo7 from "/RefLogo/11.webp";
+import logo8 from "/RefLogo/12.webp";
+import logo9 from "/RefLogo/14.webp";
+import logo10 from "/RefLogo/16.webp";
+import logo11 from "/RefLogo/17.webp";
+import logo12 from "/RefLogo/20.webp";
+
 
 function RefLogo() {
 
@@ -36,6 +36,7 @@ function RefLogo() {
         logo10,
         logo11,
         logo12,
+        
 ];
  // Logoları rastgele sıralamak için state kullanıyoruz
  const [rastgeleLogolar, setRastgeleLogolar] = useState(logolar);

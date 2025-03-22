@@ -7,14 +7,14 @@ const data = [
     title: "Siber Savunma Kıdemli Uzmanı",
     text: "Koç Sistem",
     location:"Türkiye(Hibrit)",
-    img: "/src/assets/jobsposting/Koç.webp",
+    img: "/jobsposting/Koç.webp",
     },
     {
     id: 2,
     title: "Data Engineer",
     text: "Cherry",
     location:"İstanbul/Türkiye(Uzaktan)",
-    img: "/src/assets/jobsposting/Cherry.webp",
+    img: "/jobsposting/cherry.webp",
    
     },
     {
@@ -22,14 +22,14 @@ const data = [
     title: " Senior Software Engineer                      ",
     text: "Papara",
     location:"İstanbul/Türkiye(Uzaktan)",
-    img: "/src/assets/jobsposting/Papara.webp",
+    img: "/jobsposting/papara.webp",
     },
     {
     id: 4,
     title: "Senior System Engineer",
     text: "Papara",
     location:"Ankara/Turkiye(Hibrit)",
-    img: "/src/assets/jobsposting/Papara.webp",
+    img: "/jobsposting/papara.webp",
      }
     ,
     {
@@ -37,7 +37,7 @@ const data = [
     title: "İnformation Security Governance Team Member",
     text: "Allianz Sigorta A.Ş.",
     location:"İstanbul/Türkiye(Hibrit)",
-    img: "/src/assets/jobsposting/Allianz.webp",
+    img: "/jobsposting/Allianz.webp",
    
     },
     {
@@ -45,7 +45,7 @@ const data = [
     title: "Lead -Identity &  Access Mangment                       ",
     text: "Beko Corporate",
     location:"Türkiye(İşyerinde)",
-    img: "/src/assets/jobsposting/Beko.webp",
+    img: "/jobsposting/Beko.webp",
     
     }
 ];

@@ -50,34 +50,34 @@ const SampleSlider = () => {
     <div style={{ width: '100%',margin: 'auto', paddingTop:"60px", paddingBottom:"50px" }}>
     <Slider {...settings}>
       <div>
-        <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+        <img src={isMobile ? "/Carousel_Mobil/mobil1.webp" : "/Carousel_webp/Carousel.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil2.webp" : "/Carousel_webp/GS.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil3.webp" : "/Carousel_webp/is_ilanlari_banner.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil4.webp" : "/Carousel_webp/Senior_Komuenite_Duyuru_.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil5.webp" : "/Carousel_webp/slack_banner_.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil6.webp" : "/Carousel_webp/sozluk_banner_.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil7.webp" : "/Carousel_webp/testler_banner_.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil8.webp" : "/Carousel_webp/video_egitimler_banner_.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil9.webp" : "/Carousel_webp/Carousel.webp"} alt="slide1" />
       </div>
       <div>
-      <img src={isMobile ? "/src/assets/Carousel_Mobil/mobil1.webp" : "/src/assets/Carousel_webp/Carousel.webp"} alt="slide1" />
+      <img src={isMobile ? "/Carousel_Mobil/mobil10.webp" : "/Carousel_webp/Carousel.webp"} alt="slide1" />
       </div>
     </Slider>
     </div>

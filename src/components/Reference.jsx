@@ -52,7 +52,7 @@ const blog_Data = [
     index:"1",
     title: "Blog",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan.",
-    img:"/src/assets/San_referanslar.webp",
+    img:"/RefLogo/SAN_referanslar.webp",
     founder:"Lorem ipsum dolor",
     company:"Lorem ipsum dolor sit amet"
   },
@@ -60,7 +60,7 @@ const blog_Data = [
     index:"2",
     title: "Teknik Sözlük",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan.",
-    img:"/src/assets/San_referanslar.webp",
+    img:"/RefLogo/SAN_referanslar.webp",
     founder:"Lorem ipsum dolor",
     company:"Lorem ipsum dolor sit amet"
   },
@@ -68,7 +68,7 @@ const blog_Data = [
     index:"3",
     title: "Kariyer Rehberi",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan.",
-    img:"/src/assets/San_referanslar.webp",
+    img:"/RefLogo/SAN_referanslar.webp",
     founder:"Lorem ipsum dolor",
     company:"Lorem ipsum dolor sit amet"
   },
@@ -77,7 +77,7 @@ const blog_Data = [
     index:"4",
     title: "Kariyer Rehberi",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-    img:"/src/assets/San_referanslar.webp",
+    img:"/RefLogo/SAN_referanslar.webp",
     founder:"Lorem ipsum dolor",
     company:"Lorem ipsum dolor sit amet"
   },
@@ -85,7 +85,7 @@ const blog_Data = [
     index:"5",
     title: "Kariyer Rehberi",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
-    img:"/src/assets/San_referanslar.webp",
+    img:"/Reflogo/SAN_referanslar.webp",
     founder:"Lorem ipsum dolor",
     company:"Lorem ipsum dolor sit amet"
   },
@@ -94,7 +94,7 @@ const blog_Data = [
     title: "Kariyer Rehberi",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus sit amet ipsum rhoncus consectetur. Maecenas viverra arcu et dui pharetra, a vulputate enim luctus. Sed quis odio ultrices, consectetur ipsum in, gravida nulla. Phasellus eleifend risus at nibh sollicitudin sagittis. Praesent viverra nibh a pretium efficitur. Sed fermentum dolor purus, at pharetra libero sodales non. Nulla pretium accumsan nisl at tristique. Vestibulum iaculis facilisis eros, ut volutpat purus feugiat eu. Praesent ornare scelerisque odio ac dictum. Proin rutrum placerat eleifend. Donec pretium justo ac risus pharetra bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat tortor id leo bibendum, eu vehicula quam dapibus. Morbi faucibus sapien porta lorem volutpat, a venenatis ex accumsan..",
     founder:"Lorem ipsum dolor",
-    img:"/src/assets/San_referanslar.webp",
+    img:"/RefLogo/SAN_referanslar.webp",
     company:"Lorem ipsum dolor sit amet"
 
   },
