@@ -1,12 +1,22 @@
-# React + Vite
+# Techcareer UI Domination : Frontend Bootcamp Graduation project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 📝 Techcareer Clone 
+This project is a clone of the **Techcareer.net** website, developed using React and modern web technologies.  
+The goal is to demonstrate frontend development skills and showcase React.js capabilities.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used  
+The following technologies and tools were used in this project:  
+- **React.js**  
+- **JavaScript (ES6+)**  
+- **HTML5 and CSS3**  
+- **Bootstrap** (For responsive design)  
+- **Git and GitHub** (Version control)
+- **React Slick (For slider)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Link 
+https://techcareer-clone-weld.vercel.app/
